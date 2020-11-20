@@ -1,0 +1,108 @@
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.section-form {
+    width: 550px;
+}
+
+.section-form__context {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.section-form__inner-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.section-form__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.section-form__icons-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.fa-google,
+.fa-twitter,
+.fa-vk,
+.fa-facebook-f {
+    margin-left: 15px;
+}
+
+.section-form__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 350px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+input:hover {
+    border: solid 1px red;
+    box-shadow: 0 0 10px yellow;
+}
+
+.section-form__label-checkbox {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px 15px 0px;
+}
+
+.section-form__wrap-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-form__buttonUP {
+    height: 35px;
+    width: 170px;
+    margin-top: 5px;
+    border: solid 1px yellow;
+    border-radius: 5px;
+    background: red;
+    color: yellow;
+}
+
+.section-form__buttonUP:hover {
+    box-shadow: 0 0 10px yellow;
+}
+
+.section-form__buttonIN {
+    height: 35px;
+    width: 170px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: solid 1px red;
+    background: yellow;
+    color: red;
+}
+
+.section-form__buttonIN:hover {
+    box-shadow: 0 0 10px red;
+}
+
+.text-red {
+    color: red;
+}
+
+.section-picture {
+    height: 400px;
+}
