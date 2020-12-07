@@ -28,6 +28,7 @@
 .section-form__icons-wrap {
     display: flex;
     justify-content: center;
+    height: 20px;
     margin-bottom: 15px;
 }
 
@@ -36,6 +37,13 @@
 .fa-vk,
 .fa-facebook-f {
     margin-left: 15px;
+}
+
+.fa-google:hover,
+.fa-twitter:hover,
+.fa-vk:hover,
+.fa-facebook-f:hover {
+    font-size: 20px;
 }
 
 .section-form__inputs {
